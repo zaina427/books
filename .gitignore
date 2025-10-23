@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Virtual environment
+mine/
+
+# macOS
+.DS_Store
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# Django specific
+media/
+staticfiles/
+local_settings.py
+
+# Logs & temporary files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.mo
+
+# Build / Packaging
+dist/
+build/
+pip-wheel-metadata/
+
+# Test / Coverage
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+
+# Database (MySQL won’t create local .db files, but just in case)
+*.sqlite3
+db.sqlite3
+
+.env
+.env.*
